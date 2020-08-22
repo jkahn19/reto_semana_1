@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/dbeaa0d1a7.js" crossorigin="anonymous"></script>
+        <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-    <title>
-      Frontend Mentor | Huddle landing page with single introductory section
-    </title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header class="header">
+            <img src="./images/logo.svg" alt="logo huddle"/>
+        </header>
+        
+        <section class="hero">
+            <figure class="hero-figure">
+                <img src="./images/illustration-mockups.svg" alt="illustration mockups" />
+            </figure>
+            <div class="hero-details">
+                <h1 class="hero-title">
+                    Build The Community <br/> Your Fans Will Love 
+                </h1>
+                <p class="hero-details">
+                    Huddle re-imagines the way we build communities. You have<br/> a voice, but so does your audience. Create connections with<br/> your users as you engage in genuine discussion.
+                </p>
+                <button class="hero-button" >
+                    Register
+                </button>
+            </div>
+        </section>
 
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
-  </body>
+        <footer class="footer">
+            <span class="fa-stack">
+                <i class="fab fa-facebook-f" ></i>
+            </span>
+            <span class="fa-stack">
+                <i class="fab fa-twitter"></i>
+            </span>
+            <span class="fa-stack">
+                <i class="fab fa-instagram"></i>
+            </span>
+        </footer>
+
+    </body>
 </html>
