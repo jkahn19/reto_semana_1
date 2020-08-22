@@ -1,0 +1,28 @@
+body {
+    width: 1440px;
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+header {
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
