@@ -66,6 +66,8 @@ header {
     padding: 15px 55px;
     border-radius: 30px;
     border-style: solid;
+    border-color: white;
+    box-shadow: 2px 2px 5px rgb(66, 66, 66);
 }
 
 footer {
@@ -122,7 +124,7 @@ footer .footer-icons {
 
     .hero {
         width: 80%;
-        height: 600px;
+        height: 550px;
         padding: 0 10%;
         flex-direction: column;
         align-items: center;
@@ -146,33 +148,35 @@ footer .footer-icons {
     }
     
     .hero-title {
-        margin: 20px 0;
-        font-size: 20px;
+        margin: 50px 0 20px 0;
+        font-size: 25px;
         font-weight: 700;
         text-align: center;
     }
     
     .hero-description {
         margin: 0;
-        font-size: 15px;
+        font-size: 16.5px;
+        text-align: center;
     }
     
     .hero-button {
-        background-color: #FFF;
-        font-size: 20px;
-        color: hsl(228, 45%, 44%);
-        margin: 25px 0;
-        padding: 15px 55px;
-        border-radius: 30px;
-        border-style: solid;
-        box-shadow: 2px 2px 5px rgb(66, 66, 66);
+        font-size: 15px;
+        padding: 10px 70px;
     }
 
     footer {
-        display: none;
-        margin: 0px;
-        padding: 0 75px;
-        justify-content: flex-end;
-        height: 100px;
+        padding: 0 10%;
+        height: 120px;
+    }
+
+    footer .footer-icons {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-icon {
+        width: 30px;
+        height: 30px;
     }
 }
