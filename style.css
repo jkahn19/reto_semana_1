@@ -97,3 +97,17 @@ footer .footer-icons {
 .footer-icon a {
     color: #FFF;
 }
+
+@media only screen and (max-width: 375px) {
+    html {
+        width: 375px;
+        height: 800px;
+        border: 1px solid red;
+    }
+
+    body {
+        width: inherit;
+        background-image: url(./images/bg-mobile.svg);
+    }
+
+}
