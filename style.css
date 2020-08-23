@@ -110,4 +110,15 @@ footer .footer-icons {
         background-image: url(./images/bg-mobile.svg);
     }
 
+    header {
+        padding : 0 10%;
+        height: 120px;
+        align-items: center;
+    }
+
+    header img {
+        width: 45%;
+    }
+
+    
 }
